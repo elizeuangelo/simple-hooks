@@ -14,7 +14,7 @@
 Import the module by using
 
 ```
-import * as Hooks from "https://deno.land/x/simple-hooks/mod.ts";
+import * as Hooks from "https://deno.land/x/simplehooks/mod.ts";
 ```
 
 ## 📖 Usage
@@ -47,7 +47,7 @@ If you don't want this behavior, you can force all callbacks to be called by usi
 ### 📚 Example:
 
 ```
-import * as Hooks from "https://deno.land/x/simple-hooks/mod.ts";
+import * as Hooks from "https://deno.land/x/simplehooks/mod.ts";
 
 function callBack1(arg1) {
     console.log("callback1: " + arg1);
